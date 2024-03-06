@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .body{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67Pawdi8vJkzBg_o6bnE4jzUqNcyWUY51nQ&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+       
+    }
+    .login{
+        width: 30%;
+        height: auto;
+        justify-content: center;  
+        color:orange;
+        border-radius: 20;
+        text-align: center;
+        padding: 40px 20px;
+        box-shadow: 2px 3px 4px yellow;
+        background-image: url(data:image/jpeg;base64,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);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        
+    }
+    .header{
+        margin-bottom: 30;
+    }
+    label,input{
+        text-align: left;
+        display: block;
+        margin-bottom: 10;
+    }
+    input{
+        width: 100;
+        height: 20;
+        border-radius: 10px;
+        
+    }
+    input::placeholder{
+        padding-left: 20px;
+        margin: 20px;
+    }
+        input:focus{
+            outline: none;
+            border: 3px solid green;
+        }
+        .submit{
+            width: 100%;
+            height: 30px;
+          border-radius: 1opx;
+          border: 3px solid blue;
+            margin-top: 30px;
+        }
+        .submit:hover{
+            background-color: blueviolet;
+            color: azure;
+            border: none;
+        }
+            
+        
+    
+
+   </style>
+</head>
+<body>
+    <div class="body">
+        <div class="login">
+        <h1 class="header">
+            Register Here
+        </h1>
+
+        <form action="" method="post">
+
+           
+            <div>
+                <label for="">Email</label> 
+                <input type="email" placeholder="Enter Email">
+            </div>
+           
+            <div>
+                <label for="">password</label> 
+                <input type="password"  placeholder="Enter password">
+            </div>
+           
+           
+        </form>
+        <button class="subit">Register</button>
+    </div>
+</div>
+    
+</body>
+</html>
