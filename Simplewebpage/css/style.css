@@ -39,6 +39,10 @@ nav{
     justify-content: left;
     align-items: center;
 }
+.grid img{
+    border-radius: 30px;
+    box-shadow: 2px 3px 4px #000;
+}
 .job{
     font-size: 12px;
     font-family: "Manrope", sans-serif;
