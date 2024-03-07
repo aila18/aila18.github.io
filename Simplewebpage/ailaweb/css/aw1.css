@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap')
+*{
+    margin: 0%;
+    padding: 0%;
+    color: rgb(241, 82, 23);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    font-size: 15px;
+   
+    
+}
+
+.logo p{
+
+    font-family: "Anta", sans-serif;
+    font-weight: 800;
+    color: rgba(194, 12, 12, 0.623);
+    
+}
+.grid-container{
+
+    display: grid;
+    grid-template-columns: auto auto  ;
+    padding: 70px;
+    background-color: rgba(164, 228, 16, 0.493);
+}
+.grid{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+   
+}
+.para{
+    font-size: 12px;
+    font-family: "Anta", sans-serif;
+    font-weight: 600;
+    color: blue;
+}
+.name{
+    font-size: 50px;
+    font-family: "Anta", sans-serif;
+    font-weight: 600;
+}
+.job{
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+    font-weight: 600;
+    color: deeppink;
+}
+.contact-link{
+
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    color: rgba(226, 41, 17, 0.877);
+
+}
